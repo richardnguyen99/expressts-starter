@@ -1,0 +1,30 @@
+{
+  "name": "expressts-starter",
+  "version": "0.0.1",
+  "description": "Opinionated template for NodeJS backend with ExpressJS, TypeScript, TailwindCSS, and Webpack",
+  "main": "src/server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:server": "nodemon --watch src --exec ts-node src/server.ts"
+  },
+  "keywords": [
+    "typescript",
+    "expressjs",
+    "tailwindcss",
+    "webpack",
+    "template",
+    "ejs"
+  ],
+  "author": "Richar H. Nguyen",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.11",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
